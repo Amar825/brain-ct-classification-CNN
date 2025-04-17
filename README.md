@@ -60,6 +60,8 @@ if prediction < 0.5:
 else:
     print("Normal")
 
+---
+
 ## 📌 Key Learnings
 
 - How to use `ImageDataGenerator` for medical images
