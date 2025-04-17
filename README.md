@@ -59,7 +59,7 @@ if prediction < 0.5:
     print("Hemorrhage")
 else:
     print("Normal")
-
+```
 ---
 
 ## 📌 Key Learnings
