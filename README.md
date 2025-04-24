@@ -7,9 +7,9 @@ This project uses a Convolutional Neural Network (CNN) to classify brain CT scan
 ## 🧾 Project Overview
 
 ### Objective
-We aim to train a deep learning model that can accurately detect hemorrhages in CT scan images of the brain. This is critical in medical diagnostics, where rapid identification can be life-saving.
----
+The aim is to train a deep learning model that can accurately detect hemorrhages in CT scan images of the brain. This is critical in medical diagnostics, where rapid identification can be life-saving.
 
+---
 ## Background
 
 ### Why Deep Learning?
