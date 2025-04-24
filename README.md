@@ -1,4 +1,4 @@
-# 🧠 Brain CT Scan Classification with CNN
+# Brain CT Scan Classification with CNN
 
 This project uses a Convolutional Neural Network (CNN) to classify brain CT scans as either **normal** or **hemorrhage**. It's a practical deep learning application for medical image classification, implemented using TensorFlow and Keras.
 
@@ -6,11 +6,11 @@ This project uses a Convolutional Neural Network (CNN) to classify brain CT scan
 
 ## 🧾 Project Overview
 
-### 🎯 Objective
+### Objective
 We aim to train a deep learning model that can accurately detect hemorrhages in CT scan images of the brain. This is critical in medical diagnostics, where rapid identification can be life-saving.
 ---
 
-## 🧠 Background
+## Background
 
 ### Why Deep Learning?
 Deep Learning, particularly Convolutional Neural Networks (CNNs), excels at tasks involving **image recognition**. In medical imaging, CNNs can learn complex visual patterns to assist radiologists by automating the detection process.
@@ -24,7 +24,7 @@ Deep Learning, particularly Convolutional Neural Networks (CNNs), excels at task
 Folder structure:
 data/ ├── head_ct_slices/ │ ├── train/ │ │ ├── normal/ │ │ └── hemorrhage/ │ ├── validate/ │ │ ├── normal/ │ │ └── hemorrhage/ │ └── test/
 
-## 🧬 Model Architecture
+## Model Architecture
 
 We built a deep CNN using the following structure:
 Input (150x150x3)
@@ -38,7 +38,7 @@ Input (150x150x3)
 → Dense(1, Sigmoid)
 Each convolution layer extracts features. Pooling layers reduce spatial size and computation. Final layers interpret these features to classify the image.
 
-## 📊 Training Performance
+## Training Performance
 Epochs: 10
 Optimizer: Adam
 Loss: Binary Crossentropy
@@ -50,7 +50,7 @@ Training output includes:
 
 ---
 
-## 🔍 Evaluation
+## Evaluation
 
 After training, the model is tested on **unseen test images**. It predicts each image as either `"normal"` or `"hemorrhage"` based on a probability threshold of **0.5**:
 
@@ -62,7 +62,7 @@ else:
 ```
 ---
 
-## 📌 Key Learnings
+## Key Learnings
 
 - How to use `ImageDataGenerator` for medical images
 - Building and tuning CNN layers for feature extraction
@@ -71,7 +71,7 @@ else:
 
 ---
 
-## 🧠 Author Notes
+## Author Notes
 
 This project is designed as both a **practical demo** and a **learning tool**.  
 All steps and code are explained in plain language in the script file so that learners can follow along.
